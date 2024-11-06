@@ -1,0 +1,23 @@
+{
+    "name": "technical_test_adeo",
+    "version": "1.0.0",
+    "description": "technical test adeo",
+    "main": "app.js",
+    "scripts": {
+        "start:filter": "node app.js --filter=ry",
+        "start:count": "node app.js --count",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "test": "jest",
+        "test:lint": "npm run lint && npm test"
+    },
+    "keywords": [],
+    "author": "Nidhal FERSI",
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "eslint-plugin-jest": "^27.6.0",
+        "@babel/core": "^7.23.0",
+        "@babel/preset-env": "^7.23.0",
+        "jest": "^29.6.0"
+    }
+}
